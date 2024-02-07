@@ -6,7 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 function Footer () {
     return (
         <>
-            <Container fluid className="m-0">
+            <Container fluid className="m-0 pt-5">
                 <p className='text-white-50 text-center mb-1'>© Luigi Iossa 2024</p>
                     <p className='text-center'>
                         <a href='https://github.com/Luigi-stack/' className='text-white-50'><FaGithub /></a>

@@ -33,7 +33,7 @@ const Formulaire_inscription = () => {
         <Container className='nav_bar'>
             <Row className="justify-content-center align-items-center">
                 {/* Titre du formulaire */}
-                <h2 className='mb-4 text-center' data-aos="fade-down"
+                <h2 className='mb-5 text-center' data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">Inscrivez-vous</h2>
 
