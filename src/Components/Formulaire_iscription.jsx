@@ -33,9 +33,13 @@ const Formulaire_inscription = () => {
         <Container className='nav_bar'>
             <Row className="justify-content-center align-items-center">
                 {/* Titre du formulaire */}
-                <h2 className='mb-4 text-center'>Inscrivez-vous</h2>
+                <h2 className='mb-4 text-center' data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Inscrivez-vous</h2>
 
-                <Col md={6} xl={4}>
+                <Col md={6} xl={4} data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                     {/* Formulaire d'inscription */}
                     <Form noValidate validated={validated} onSubmit={handleSubmit}>
                         {/* Champ pour le nom complet */}
@@ -112,7 +116,9 @@ const Formulaire_inscription = () => {
                 </Col>
 
                 {/* Image illustrative */}
-                <Col md={6} xl={4} className='mb-5'>
+                <Col md={6} xl={4} className='mb-5' data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                     <img className='img-fluid rounded-5 shadow' src={jetset} alt="traveller" />
                 </Col>
             </Row>
