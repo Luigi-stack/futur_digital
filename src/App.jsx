@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './Components/Footer';
 import Formulaire_iscription from './Components/Formulaire_iscription'
 import NavBar from './Components/NavBar'
 import AOS from 'aos';
@@ -15,6 +16,7 @@ function App() {
     <>
       <NavBar />
       <Formulaire_iscription />
+      <Footer />
 
     </>
   )
