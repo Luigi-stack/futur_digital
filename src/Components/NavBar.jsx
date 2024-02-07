@@ -15,7 +15,7 @@ function NavBar() {
 
       <Navbar fixed="top" collapseOnSelect expand="lg" className="border border-0 bg-warning">
         <Container>
-          <Navbar.Brand href="/home"><img src={logo} alt="logo" width={125}/></Navbar.Brand>
+          <Navbar.Brand href="#"><img src={logo} alt="logo" width={125}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border border-0 rounded-0' />
           <Navbar.Collapse id="responsive-navbar-nav">
 
