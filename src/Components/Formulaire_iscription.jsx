@@ -112,7 +112,7 @@ const Formulaire_inscription = () => {
                     </Form>
 
                     {/* Lien vers la page de connexion */}
-                    <p className="text-center fst-italic fw-normal">Déjà inscrit ? <a href="/login">Connexion</a></p>
+                    <p className="text-center fst-italic fw-normal">Déjà inscrit ? <a href="#">Connexion</a></p>
                 </Col>
 
                 {/* Image illustrative */}
